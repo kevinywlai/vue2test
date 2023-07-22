@@ -27,3 +27,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```shell
 npm install vue-cli -g
 ```
+
+# Install TypeScript and the TypeScript Loader
+```shell
+npm install typescript ts-loader --save-dev
+```
