@@ -9,6 +9,16 @@
           <p class="my-4">Hello from modal!</p>
       </b-modal>
     </div>
+    <div>
+      <ul>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/menu">Menu</router-link></li>
+        <router-link tag="li" to="/bar" :event="['mousedown', 'touchstart']">
+          <a>Bar</a>
+        </router-link>
+      </ul>
+      <router-view class="view"></router-view>
+    </div>
   </div>
 </template>
 
@@ -21,6 +31,7 @@ export default {
     HelloWorld
   }
 }
+
 </script>
 
 <style>

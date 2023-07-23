@@ -32,3 +32,6 @@ npm install vue-cli -g
 ```shell
 npm install typescript ts-loader --save-dev
 ```
+
+# Router
+https://github.com/PacktPublishing/Vuejs-2-Cookbook/blob/d334868af243dfe0f15545102adc9c30c1e6b581/Chapter06/6.7/index.html
